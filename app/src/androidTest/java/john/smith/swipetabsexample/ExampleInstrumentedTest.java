@@ -19,6 +19,7 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
+        // Code change by Faraz
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("john.smith.swipetabsexample", appContext.getPackageName());
